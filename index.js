@@ -12,7 +12,7 @@ server.on('request', function (request, response) {
         });
     } else {
         response.statusCode = 404;
-        response.write('<img src="https://webhostingmedia.net/wp-content/uploads/2018/01/http-error-404-not-found.png alt=error404">');
+        response.write('<img src="https://www.lifewire.com/thmb/aGlWdK4PhVJGPM_LXKLJBXycBFs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/404-not-found-error-explained-2622936-Final-387df77f30dd4c9d805012c2ba13fbc5.png">');
         response.end();
     }
 });
